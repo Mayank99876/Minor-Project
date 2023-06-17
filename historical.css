@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("haldi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 6px;
+    text-align: center;
+    color: rgb(77, 76, 76);
+    background-image: linear-gradient(120deg,orange,white,green);
+    /* text-shadow: 2px 2px 4px rgb(246, 246, 246); */
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#maindivision{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+h1{
+    position: absolute;
+    left: 650px;
+}
+div{
+    margin: 20px;
+    padding: 20px;
+    border-style: double;
+    display:inline-flex;
+    box-shadow: 10px 10px 30px rgb(94, 91, 91) ;
+}
+
+p{
+    margin: 20px;
+    margin-top: 80px;
+}
+
+footer{
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+    color: rgb(47, 47, 47);
+    background-image: linear-gradient(120deg,orange,white,green);
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    /* text-shadow: 2px 2px 4px rgb(246, 246, 246); */
+    letter-spacing: 5px;
+}
+
+audio{
+    width: 30%;
+    margin-left: 500px;
+}
+.designer{
+    margin-left:1150px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
